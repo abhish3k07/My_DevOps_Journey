@@ -1,0 +1,14 @@
+Linux is free and open-source operating system and it is an essential tool for managing infrastructure and deploying applications.Linux provides a powerful and flexible environment for scripting,
+automation, and orchestration, making it a popular choice for DevOps workflows.Understanding Linux fundamentals is critical for any DevOps engineer looking to work with cloud platforms,
+containerization technologies, and other modern DevOps tools. Here is a brief description about the Linux Boot Process. 
+
+Power on - The POST (power-on self-test) performs a series of checks to ensure that the hardware is functioning properly.
+BIOS - The BIOS initializes the hardware and searches for a boot device.
+MBR - The MBR is read from the boot device, and contains the bootloader.
+Bootloader - The bootloader, such as GRUB, loads the Linux kernel.
+Kernel - The kernel is responsible for managing system resources and providing services to other processes.
+Init - The init process is responsible for starting all other user-space processes and services.
+Services and daemons - The appropriate services and daemons are started, based on the runlevel specified in the /etc/inittab file.
+
+Keep in mind that the Linux boot process can vary depending on the distribution and configuration of the system. 
+You can find various resources that will provide more insight into the Linux boot process on the internet.
