@@ -1,0 +1,6 @@
+In Linux, a process is a running instance of a program. Every process has a unique process ID (PID) that identifies it. Linux uses a process-centric model, which means that everything in the system is a process. Even the kernel itself is a process.
+
+Whenever a command is issued in Unix/Linux, it creates/starts a new process. For example, pwd when issued which is used to list the current directory location the user is in, a process starts.
+Through a 5 digit ID number Unix/Linux keeps an account of the processes, this number is called process ID or PID. Each process in the system has a unique PID.
+Used up pid’s can be used in again for a newer process since all the possible combinations are used.
+At any point of time, no two processes with the same pid exist in the system because it is the pid that Unix uses to track each process.
